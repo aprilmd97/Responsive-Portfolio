@@ -1,0 +1,66 @@
+
+@media screen and (max-width: 980px){
+
+    .content {
+        width: 80%;
+        
+    }
+}
+
+@media screen and (max-width: 768px){
+
+
+    .content {
+        width: 80%;
+        z-index: 3;
+    }
+}
+
+@media screen and (max-width: 640px){
+
+  
+    #header {
+        background-color: rgba(0, 0, 0, 0.37);
+        overflow: hidden;
+        position: fixed;
+        z-index:2;
+    }
+
+.wd, .line1, #image {
+    display: none;
+}
+
+.background {
+    background-image: none;
+}
+
+
+.content {
+    width: 80%;
+    position: absolute;
+    top: 200px;
+    right: 0;
+    left:0;
+   
+}
+
+    .code {
+width: 27%
+    }
+
+ .audio {
+     width: 58.5%;
+ }
+
+ .container {
+     position: relative;
+     left: 25px;
+ }
+
+ .mid {
+     top: 10px;
+     bottom: 10;
+     position: relative;
+     right: 10px;
+ }
+ 
